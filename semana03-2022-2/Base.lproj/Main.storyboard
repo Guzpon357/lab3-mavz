@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="semana03_2022_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usando POO en Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdL-Vd-rr7">
+                                <rect key="frame" x="20" y="74" width="374" height="36"/>
+                                <color key="backgroundColor" red="0.0" green="0.76647741462766517" blue="0.49840324396978714" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" systemColor="systemYellowColor"/>
+                                <color key="shadowColor" systemColor="systemCyanColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDl-jW-nrM">
+                                <rect key="frame" x="20" y="140" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="systemPurpleColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modelo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gw5-29-BFq">
+                                <rect key="frame" x="20" y="191" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="systemGreenColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXE-yr-dN5">
+                                <rect key="frame" x="20" y="242" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.92128556969999997" green="0.057679842869999998" blue="0.035119146919999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Velocidad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJ0-kG-WPy">
+                                <rect key="frame" x="20" y="293" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="systemBlueColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeI-IN-XNG">
+                                <rect key="frame" x="20" y="344" width="374" height="31"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title=" Nuevo carro"/>
+                                <connections>
+                                    <action selector="onTabNewCar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w9G-28-rBi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9y-15-ZuA">
+                                <rect key="frame" x="20" y="405" width="374" height="31"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Acelerar"/>
+                                <connections>
+                                    <action selector="onTabAcelerate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CNp-wU-bB7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wE-MZ-K3t">
+                                <rect key="frame" x="20" y="466" width="374" height="31"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Detener"/>
+                                <connections>
+                                    <action selector="onTabStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iu5-0c-UPZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57g-BU-dYc">
+                                <rect key="frame" x="20" y="527" width="374" height="31"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Desacelerar"/>
+                                <connections>
+                                    <action selector="onTabSlowdown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q5Y-sp-gJw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="57g-BU-dYc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="11P-jB-sqO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mdL-Vd-rr7" secondAttribute="trailing" constant="20" id="7NO-wT-I48"/>
+                            <constraint firstItem="aJ0-kG-WPy" firstAttribute="top" secondItem="fXE-yr-dN5" secondAttribute="bottom" constant="30" id="7V5-WI-c8K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="57g-BU-dYc" secondAttribute="trailing" constant="20" id="84F-n2-xG0"/>
+                            <constraint firstItem="3wE-MZ-K3t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="APB-92-IEX"/>
+                            <constraint firstItem="a9y-15-ZuA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ASw-P2-mrj"/>
+                            <constraint firstItem="fXE-yr-dN5" firstAttribute="top" secondItem="gw5-29-BFq" secondAttribute="bottom" constant="30" id="D6L-pa-1ad"/>
+                            <constraint firstItem="aJ0-kG-WPy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DIr-7z-Drk"/>
+                            <constraint firstItem="BDl-jW-nrM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DjJ-le-Jca"/>
+                            <constraint firstItem="fXE-yr-dN5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E5U-8v-eL4"/>
+                            <constraint firstItem="a9y-15-ZuA" firstAttribute="top" secondItem="oeI-IN-XNG" secondAttribute="bottom" constant="30" id="Fs3-VD-c93"/>
+                            <constraint firstItem="57g-BU-dYc" firstAttribute="top" secondItem="3wE-MZ-K3t" secondAttribute="bottom" constant="30" id="J1M-QJ-8tI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3wE-MZ-K3t" secondAttribute="trailing" constant="20" id="M1q-kT-iv6"/>
+                            <constraint firstItem="3wE-MZ-K3t" firstAttribute="top" secondItem="a9y-15-ZuA" secondAttribute="bottom" constant="30" id="TZe-4c-7Gq"/>
+                            <constraint firstItem="gw5-29-BFq" firstAttribute="top" secondItem="BDl-jW-nrM" secondAttribute="bottom" constant="30" id="W7e-hV-KmV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a9y-15-ZuA" secondAttribute="trailing" constant="20" id="WTj-f6-J9y"/>
+                            <constraint firstItem="oeI-IN-XNG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YpX-5r-Mnz"/>
+                            <constraint firstItem="mdL-Vd-rr7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ayr-6H-WbU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aJ0-kG-WPy" secondAttribute="trailing" constant="20" id="d5x-XG-HGM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oeI-IN-XNG" secondAttribute="trailing" constant="20" id="enB-3I-qvc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gw5-29-BFq" secondAttribute="trailing" constant="20" id="iFy-Iz-CCj"/>
+                            <constraint firstItem="oeI-IN-XNG" firstAttribute="top" secondItem="aJ0-kG-WPy" secondAttribute="bottom" constant="30" id="kqD-h6-PE7"/>
+                            <constraint firstItem="BDl-jW-nrM" firstAttribute="top" secondItem="mdL-Vd-rr7" secondAttribute="bottom" constant="30" id="oGT-Td-Lbh"/>
+                            <constraint firstItem="gw5-29-BFq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qZC-b3-yNd"/>
+                            <constraint firstItem="mdL-Vd-rr7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qwz-ey-j5J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BDl-jW-nrM" secondAttribute="trailing" constant="20" id="tQL-5M-fT7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fXE-yr-dN5" secondAttribute="trailing" constant="20" id="ygS-y9-fNn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblbrand" destination="BDl-jW-nrM" id="nhT-ks-E6z"/>
+                        <outlet property="lblcolor" destination="fXE-yr-dN5" id="lOD-vy-STb"/>
+                        <outlet property="lblmodel" destination="gw5-29-BFq" id="ifY-vB-C2f"/>
+                        <outlet property="lblspeed" destination="aJ0-kG-WPy" id="e8k-Ei-J0H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44.927536231884062" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
